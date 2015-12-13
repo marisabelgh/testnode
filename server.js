@@ -32,7 +32,7 @@ var track_hit = function(request, response, db){
       }
       response.writeHead(200, {'Content-Type': 'text/plain'});
       response.write(JSON.stringify(hit_record));
-      response.end("Tracked hit from " + address + "\n");
+      response.end("V2 - Tracked hit from " + address + "\n");
     });
   });
 }
